@@ -6,6 +6,38 @@ Built in 2023 using Python, aiogram, and SQLite.
 
 ---
 
+## ⚙️ Installation
+
+1. Clone repository:
+
+```
+git clone https://github.com/Fatonim/ICPCFU.git
+cd ICPCFU
+```
+
+2. Create virtual environment:
+
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+4. Set Bot Token to your telegram bot token.
+
+5. Run bot:
+
+```
+python bot.py
+```
+
+---
+
 ## 🚀 Features
 
 - Registration via Codeforces nickname
@@ -50,38 +82,6 @@ ICPCFU/
 ├── requirements.txt
 ├── README.md
 └── database/           # SQLite database file (not tracked)
-```
-
----
-
-## ⚙️ Installation
-
-1. Clone repository:
-
-```
-git clone https://github.com/Fatonim/ICPCFU.git
-cd ICPCFU
-```
-
-2. Create virtual environment:
-
-```
-python -m venv venv
-source venv/bin/activate
-```
-
-3. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-4. Set Bot Token to your telegram bot token.
-
-5. Run bot:
-
-```
-python bot.py
 ```
 
 ---
