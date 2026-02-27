@@ -1,8 +1,9 @@
 # 🎮 ICPCFU – Codeforces Gamified Telegram Bot
 
-A Telegram bot that gamifies competitive programming practice on Codeforces.
-
-Built in 2023 using Python, aiogram, and SQLite.
+The bot was created for people who likes to solve programming problems on codeforces and compete with other participants. 
+It looks like the game to make it more fun. 
+if you get issue with some commands you can ride the /manual_errors or write to our administration @yar_kk. 
+Good luck!
 
 ---
 
