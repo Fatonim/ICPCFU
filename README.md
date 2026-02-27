@@ -7,6 +7,40 @@ Good luck!
 
 ---
 
+## ⚙️ Installation
+
+Python 3.10 – 3.11 required!
+
+1. Clone repository:
+
+```
+git clone https://github.com/Fatonim/ICPCFU.git
+cd ICPCFU
+```
+
+2. Create virtual environment:
+
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+4. Set Bot Token to your telegram bot token.
+
+5. Run bot:
+
+```
+python bot.py
+```
+
+---
+
 ## 🚀 Features
 
 - Registration via Codeforces nickname
@@ -65,40 +99,6 @@ ICPCFU/
 - `/buy <bonus_name>` – Purchase EXP multiplier
 - `/leaders` – View leaderboard
 - `/help` – Command overview
-
----
-
-## ⚙️ Installation
-
-Python 3.10 – 3.11 required!
-
-1. Clone repository:
-
-```
-git clone https://github.com/Fatonim/ICPCFU.git
-cd ICPCFU
-```
-
-2. Create virtual environment:
-
-```
-python -m venv venv
-source venv/bin/activate
-```
-
-3. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-4. Set Bot Token to your telegram bot token.
-
-5. Run bot:
-
-```
-python bot.py
-```
 
 ---
 
