@@ -179,10 +179,12 @@ async def help(message: types.Message):
 ################################################################################
 
 def create_problems():
-    for i in range(28):
+    for i in range(1):
         rank = str((i + 8) * 100)
         url = URL_PROBLEMSET + rank + "-" + rank
         new_task_links = func.parser_problems(url)
+        if new_task_links == False:
+            return
         TASK_LINKS.append(new_task_links)
         random.shuffle(TASK_LINKS[i])
 
