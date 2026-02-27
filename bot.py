@@ -6,7 +6,8 @@ from aiogram import Bot, Dispatcher, executor, types
 from config import TOKEN, URL_PROBLEMSET, MSG_ERROR
 from db import BotDB
 
-BotDB = BotDB('ICPCFUdb.db')
+BotDB = BotDB('database/ICPCFUdb.db')
+# BotDB = BotDB('ICPCFUdb.db')
 
 bot = Bot(TOKEN)
 dp = Dispatcher(bot)
@@ -229,4 +230,5 @@ async def reg(message: types.Message):
     await message.reply(f"Hello, {name}")
 
 if __name__ == '__main__':
+
     executor.start_polling(dp, skip_updates=True)
